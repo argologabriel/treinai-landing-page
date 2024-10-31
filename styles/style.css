@@ -58,7 +58,7 @@ body {
 }
 
 .sessao {
-	margin: 2em;
+	margin: 2em 4em;
 }
 
 .sessao .titulo {
@@ -79,13 +79,13 @@ body {
 
 .problema .paragrafo {
 	text-align: justify;
-	text-indent: 2em;
+
 	height: 6em;
 }
 
 #proposta .lema {
 	background-color: var(--text-color);
-	border-radius: 1em;
+	border-radius: 0.5em;
 	color: var(--bg-color);
 	text-align: center;
 	font-size: 1.5em;
@@ -93,4 +93,36 @@ body {
 	margin: 2em auto;
 	padding: 1em;
 	width: 30em;
+}
+
+.solucao-conteudo {
+	display: flex;
+	margin: 0 7em;
+	gap: 2em;
+}
+
+.solucao-imagem {
+	height: 40em;
+}
+
+.solucao-imagem:hover {
+	scale: 1.2;
+	transition: .5s;
+}
+
+.solucao-explicacao1 {
+	width: 29em;
+	padding: 1em;
+	margin-top: 5.5em;
+
+}
+
+.solucao-explicacao2 {
+	width: 29em;
+	padding: 1em;
+}
+
+.solucao-paragrafo {
+	padding: 1em;
+	text-align: justify;
 }
