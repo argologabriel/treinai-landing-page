@@ -53,7 +53,7 @@ body {
 }
 
 .seletor:hover {
-	font-size: 1.3em;
+	scale: 1.4;
 	transition: .5s;
 }
 
@@ -79,7 +79,6 @@ body {
 
 .problema .paragrafo {
 	text-align: justify;
-
 	height: 6em;
 }
 
