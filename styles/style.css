@@ -10,9 +10,9 @@
 	text-decoration: none;
 	scroll-behavior: smooth;
 	font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
+	font-optical-sizing: auto;
+	font-weight: weight;
+	font-style: normal;
 }
 
 body {
@@ -82,16 +82,28 @@ body {
 	height: 6em;
 }
 
-#proposta .lema {
+#proposta {
 	background-color: var(--text-color);
-	border-radius: 0.5em;
 	color: var(--bg-color);
+	margin: 0;
+	height: 19em;
 	text-align: center;
+}
+
+#proposta .titulo {
+	padding: 1em 0 .5em;
+	margin: 0 2em;
+}
+
+#proposta .conteudo {
+	margin: 0 20em;
+	align-items: center;
+	padding: 2em;
+}
+
+#proposta .lema {
 	font-size: 1.5em;
 	font-weight: 600;
-	margin: 2em auto;
-	padding: 1em;
-	width: 30em;
 }
 
 .solucao-conteudo {
