@@ -52,6 +52,11 @@ body {
 	gap: 1.5em;
 }
 
+.seletor {
+	scale: 1;
+	transition: .5s;
+}
+
 .seletor:hover {
 	scale: 1.4;
 	transition: .5s;
@@ -114,6 +119,8 @@ body {
 
 .solucao-imagem {
 	height: 40em;
+	scale: 1;
+	transition: .5s;
 }
 
 .solucao-imagem:hover {
