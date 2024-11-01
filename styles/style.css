@@ -113,7 +113,6 @@ body {
 	width: 29em;
 	padding: 1em;
 	margin-top: 5.5em;
-
 }
 
 .solucao-explicacao2 {
@@ -124,4 +123,21 @@ body {
 .solucao-paragrafo {
 	padding: 1em;
 	text-align: justify;
+}
+
+#rodape {
+	padding: 3em;
+	text-align: center;
+	align-items: center;
+	color: var(--bg-color);
+	background-color: var(--text-color);
+}
+
+#rodape .rodape-conteudo a {
+	font-weight: 600;
+	color: var(--bg-color);
+}
+
+#rodape .link-treinai {
+	font-family: "Titillium Web", sans-serif;
 }
