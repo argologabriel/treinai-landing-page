@@ -82,9 +82,19 @@ body {
 	padding: 2em;
 }
 
+.problema-titulo {
+	display: flex;
+	gap: .2em;
+}
+
 .problema .paragrafo {
 	text-align: justify;
 	height: 6em;
+	margin-left: 1.5em;
+}
+
+.problema .problema-imagem {
+	height: 2em;
 }
 
 #proposta {
