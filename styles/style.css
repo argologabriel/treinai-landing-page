@@ -15,12 +15,16 @@
 	font-style: normal;
 }
 
+html {
+	font-size: 62.5%;
+}
+
 body {
-	font-size: 1.3em;
+	font-size: 2rem;
 }
 
 #cabecalho {
-	padding: 2em;
+	padding: 3.5rem;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -29,11 +33,12 @@ body {
 
 .inicio {
 	display: flex;
-	gap: 0.5em;
+	gap: 1rem;
 }
 
 .logo {
-	width: 2.4em;
+	width: 6rem;
+	height: 6rem;
 }
 
 .titulo-logo {
@@ -46,10 +51,10 @@ body {
 }
 
 .navbar {
-	font-size: 1.3em;
+	font-size: 2.5rem;
 	font-weight: 600;
 	display: flex;
-	gap: 1.5em;
+	gap: 3rem;
 }
 
 .seletor {
@@ -63,72 +68,74 @@ body {
 }
 
 .sessao {
-	margin: 2em 4em;
+	margin: 5rem 15rem;
 }
 
 .sessao .titulo {
 	font-family: "Titillium Web", sans-serif;
 	font-style: bold;
-	font-size: 2.5em;
+	font-size: 5rem;
 }
 
 .problemas {
-	margin: 1em 5em;
+	margin: 1rem 10rem;
 	display: flex;
-	gap: 2em;
+	gap: 3rem;
 }
 
 .problema {
-	padding: 2em;
+	padding: 4rem;
 }
 
 .problema-titulo {
 	display: flex;
-	gap: .2em;
+	gap: .5rem;
 }
 
 .problema .paragrafo {
 	text-align: justify;
-	height: 6em;
+	height: 8rem;
 	margin-left: 1.5em;
 }
 
 .problema .problema-imagem {
-	height: 2em;
+	height: 4rem;
 }
 
 #proposta {
 	background-color: var(--text-color);
 	color: var(--bg-color);
 	margin: 0;
-	height: 19em;
+	height: 40rem;
 	text-align: center;
 }
 
 #proposta .titulo {
-	padding: 1em 0 .5em;
-	margin: 0 2em;
+	padding: 5rem 1rem;
+	margin: 0 3rem;
 }
 
 #proposta .conteudo {
-	margin: 0 20em;
+	margin: 0 30rem;
 	align-items: center;
-	padding: 2em;
+	padding: 3rem;
 }
 
 #proposta .lema {
-	font-size: 1.5em;
+	font-size: 3.5rem;
 	font-weight: 600;
+	margin: 0 10rem;
 }
 
 .solucao-conteudo {
 	display: flex;
-	margin: 0 7em;
-	gap: 2em;
+	margin-left: 15rem;
+	margin-right:10rem;
+	gap: 3rem;
 }
 
 .solucao-imagem {
-	height: 40em;
+	height: 80rem;
 	scale: 1;
 	transition: .5s;
 }
@@ -139,23 +146,23 @@ body {
 }
 
 .solucao-explicacao1 {
-	width: 29em;
-	padding: 1em;
-	margin-top: 5.5em;
+	width: 53.5rem;
+	padding: 1.6rem;
+	margin-top: 11.5rem;
 }
 
 .solucao-explicacao2 {
-	width: 29em;
-	padding: 1em;
+	width: 54rem;
+	padding: 1.6rem;
 }
 
 .solucao-paragrafo {
-	padding: 1em;
+	padding: 1.6rem;
 	text-align: justify;
 }
 
 #rodape {
-	padding: 3em;
+	padding: 5rem;
 	text-align: center;
 	align-items: center;
 	color: var(--bg-color);
