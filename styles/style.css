@@ -1,0 +1,178 @@
+:root {
+	--bg-color: #f8f8f8;
+	--text-color: #1e1e1e;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	scroll-behavior: smooth;
+	font-family: "Montserrat", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: weight;
+	font-style: normal;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-size: 2rem;
+}
+
+#cabecalho {
+	padding: 3.5rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: var(--text-color);
+}
+
+.inicio {
+	display: flex;
+	gap: 1rem;
+}
+
+.logo {
+	width: 6rem;
+	height: 6rem;
+}
+
+.titulo-logo {
+	font-family: "Titillium Web", sans-serif;
+}
+
+.titulo-logo,
+.seletor {
+	color: var(--bg-color)
+}
+
+.navbar {
+	font-size: 2.5rem;
+	font-weight: 600;
+	display: flex;
+	gap: 3rem;
+}
+
+.seletor {
+	scale: 1;
+	transition: .5s;
+}
+
+.seletor:hover {
+	scale: 1.4;
+	transition: .5s;
+}
+
+.sessao {
+	margin: 5rem 15rem;
+}
+
+.sessao .titulo {
+	font-family: "Titillium Web", sans-serif;
+	font-style: bold;
+	font-size: 5rem;
+}
+
+.problemas {
+	margin: 1rem 10rem;
+	display: flex;
+	gap: 3rem;
+}
+
+.problema {
+	padding: 4rem;
+}
+
+.problema-titulo {
+	display: flex;
+	gap: .5rem;
+}
+
+.problema .paragrafo {
+	text-align: justify;
+	height: 8rem;
+	margin-left: 1.5em;
+}
+
+.problema .problema-imagem {
+	height: 4rem;
+}
+
+#proposta {
+	background-color: var(--text-color);
+	color: var(--bg-color);
+	margin: 0;
+	height: 40rem;
+	text-align: center;
+}
+
+#proposta .titulo {
+	padding: 5rem 1rem;
+	margin: 0 3rem;
+}
+
+#proposta .conteudo {
+	margin: 0 30rem;
+	align-items: center;
+	padding: 3rem;
+}
+
+#proposta .lema {
+	font-size: 3.5rem;
+	font-weight: 600;
+	margin: 0 10rem;
+}
+
+.solucao-conteudo {
+	display: flex;
+	margin-left: 15rem;
+	margin-right:10rem;
+	gap: 3rem;
+}
+
+.solucao-imagem {
+	height: 80rem;
+	scale: 1;
+	transition: .5s;
+}
+
+.solucao-imagem:hover {
+	scale: 1.2;
+}
+
+.solucao-explicacao1 {
+	width: 53.5rem;
+	padding: 1.6rem;
+	margin-top: 11.5rem;
+}
+
+.solucao-explicacao2 {
+	width: 54rem;
+	padding: 1.6rem;
+}
+
+.solucao-paragrafo {
+	padding: 1.6rem;
+	text-align: justify;
+}
+
+#rodape {
+	padding: 5rem;
+	text-align: center;
+	align-items: center;
+	color: var(--bg-color);
+	background-color: var(--text-color);
+}
+
+#rodape .rodape-conteudo a {
+	font-weight: 600;
+	color: var(--bg-color);
+}
+
+#rodape .link-treinai {
+	font-family: "Titillium Web", sans-serif;
+}
